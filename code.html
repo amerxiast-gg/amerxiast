@@ -38,10 +38,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn-cms-s-8-4.f-static.net/manager/ai_app_builder/v3/assets/css/theme.css?t=1787574633&w=12336189&edit=1">
-<link rel="stylesheet" href="https://cdn-cms-s-8-4.f-static.net/manager/ai_app_builder/v3/assets/css/main.css?t=1787574633&w=12336189&edit=1">
-<link rel="stylesheet" href="https://cdn-cms-s-8-4.f-static.net/manager/ai_app_builder/v3/assets/css/components.css?t=1787574633&w=12336189&edit=1">
-<link rel="stylesheet" href="https://cdn-cms-s-8-4.f-static.net/manager/ai_app_builder/v3/assets/css/layout.css?t=1787574633&w=12336189&edit=1">
+<link rel="stylesheet" href="https://cdn-cms-s-8-4.f-static.net/manager/ai_app_builder/v3/assets/css/theme.css?t=1787577611&w=12336189&edit=1">
+<link rel="stylesheet" href="https://cdn-cms-s-8-4.f-static.net/manager/ai_app_builder/v3/assets/css/main.css?t=1787577611&w=12336189&edit=1">
+<link rel="stylesheet" href="https://cdn-cms-s-8-4.f-static.net/manager/ai_app_builder/v3/assets/css/components.css?t=1787577611&w=12336189&edit=1">
+<link rel="stylesheet" href="https://cdn-cms-s-8-4.f-static.net/manager/ai_app_builder/v3/assets/css/layout.css?t=1787577611&w=12336189&edit=1">
 <!-- /twig-include:global/head.html -->
 </head>
 <body class="min-h-screen text-[var(--text-color)]" style="font-family: var(--font-body);">
@@ -59,18 +59,18 @@
     </nav>
 </header><!-- /twig-include:global/header.html -->
     <main id="top">
-        <!-- twig-include:sections/index.game.html --><!-- Explain: Main game section with leaderboard, click area, and extended upgrades panel. -->
+        <!-- twig-include:sections/index.game.html --><!-- Explain: Game section with clicker area and upgrade list. -->
 <section class="section-pad min-h-screen pt-32 px-5 sm:px-8">
-    <div class="mx-auto max-w-[80rem] grid gap-8 lg:grid-cols-[300px_1fr_320px]">
+    <div class="mx-auto max-w-[70rem] grid gap-8 lg:grid-cols-[1fr_380px]">
         
         <!-- Click Area -->
-        <div class="glass-panel flex flex-col items-center justify-center p-8 py-12 sm:p-12 rounded-[2.5rem] text-center shadow-[var(--shadow-soft)] relative overflow-hidden order-1 lg:order-2" id="clickAreaContainer">
+        <div class="glass-panel flex flex-col items-center justify-center p-8 py-12 sm:p-12 rounded-[2.5rem] text-center shadow-[var(--shadow-soft)] relative overflow-hidden order-1" id="clickAreaContainer">
             <div class="orb orb-sage top-[-10%] right-[-10%] opacity-40"></div>
             
             <h2 class="text-xl font-bold uppercase tracking-[0.2em] text-[var(--sage-dark)] relative z-10">Clicks</h2>
             
             <!-- Number directly above the icon -->
-            <div id="scoreDisplay" class="text-7xl sm:text-8xl md:text-9xl font-semibold my-4 text-[var(--text-color)] relative z-10 leading-none select-none" style="font-family: var(--font-heading);">0</div>
+            <div id="scoreDisplay" class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold my-4 text-[var(--text-color)] relative z-10 leading-none select-none break-all px-2 w-full" style="font-family: var(--font-heading);">0</div>
             
             <div class="text-[var(--text-muted)] text-sm mb-8 font-medium tracking-wide relative z-10">
                 <span id="cpcDisplay">1</span> per click &bull; <span id="cpsDisplay">0</span> per second
@@ -86,7 +86,7 @@
         </div>
         
         <!-- Upgrades Area -->
-        <div class="glass-panel p-6 sm:p-8 rounded-[2.5rem] flex flex-col gap-4 shadow-[var(--shadow-soft)] self-start order-2 lg:order-3 max-h-[85vh] overflow-y-auto">
+        <div class="glass-panel p-6 sm:p-8 rounded-[2.5rem] flex flex-col gap-4 shadow-[var(--shadow-soft)] self-start order-2 max-h-[85vh] overflow-y-auto">
             <h3 class="text-lg font-bold uppercase tracking-[0.15em] border-b border-[var(--glass-border)] pb-4 text-[var(--sage-dark)] sticky top-0 bg-[var(--surface-color)] z-10 -mt-2 pt-2">Upgrades</h3>
             
             <button id="buyCursor" class="flex flex-col p-5 rounded-2xl bg-[var(--surface-color)] hover:bg-[var(--glass-bg)] transition-colors border border-[var(--glass-border)] text-left focus:outline-none focus:ring-2 focus:ring-[var(--accent-color)] group cursor-pointer shrink-0">
@@ -243,6 +243,6 @@
         <p class="text-xs text-[var(--text-muted)]">do ur best :3</p>
     </div>
 </footer><!-- /twig-include:global/footer.html -->
-    <script src="https://cdn-cms-s-8-4.f-static.net/manager/ai_app_builder/v3/assets/js/app.js?t=1787574633&w=12336189&edit=1"></script>
+    <script src="https://cdn-cms-s-8-4.f-static.net/manager/ai_app_builder/v3/assets/js/app.js?t=1787577611&w=12336189&edit=1"></script>
 <script>var packageNUM=1;</script><script src="https://cdn-cms-s-8-4.f-static.net/versions/2/system_mini/js/minimize_appBuilder_scripts_v3.js?v=vc1787047500" crossorigin="anonymous"></script></body>
 </html>
